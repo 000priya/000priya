@@ -29,9 +29,19 @@
 <br>
 
 ```python
+from enum import Enum
+class Status(Enum):
+    SINGLE    = 'single'
+    ONLY_ME   = 'single'
+    ME_AND_ME = 'single'
+
 class Profile:
-    name = 'Priya Kosonwichaya'
-    age  = 17
+    name   = 'Priya Kosonwichaya'
+    aka    = ['yean', 'yeen', 'simon']
+    sex    = 'male'
+    age    = 17
+    status = Status.ME_AND_ME
+    editor = ['Visual Studio Code']
     
 ```
 
@@ -41,6 +51,13 @@ class Profile:
 <p align="center">
   <img align="center" alt="OnePiece_Luffy" src="https://media.giphy.com/media/KDyoY2v2MlDHy/giphy.gif"/>
 </p>
+
+<p align="center">
+    <h2 align="center">มาสร้างสรรค์ผลงานดีๆ ด้วยกันเถอะ&nbsp;❤️&nbsp;</h2>
+    <br>
+</p>
+<br>
+<br>
 <!---
 000priya/000priya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
